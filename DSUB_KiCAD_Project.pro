@@ -1,4 +1,4 @@
-update=12/2/2021 5:38:30 PM
+update=12/3/2021 1:34:43 PM
 version=1
 last_client=kicad
 [general]
@@ -40,6 +40,7 @@ MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.25
 TrackWidth2=0.7
+TrackWidth3=2.4
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -74,11 +75,11 @@ Name=F.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
-Name=Power
+Name=5v
 Type=0
 Enabled=1
 [pcbnew/Layer.In2.Cu]
-Name=traces_2
+Name=Ground
 Type=0
 Enabled=1
 [pcbnew/Layer.In3.Cu]
@@ -194,7 +195,7 @@ Name=In30.Cu
 Type=0
 Enabled=0
 [pcbnew/Layer.B.Cu]
-Name=B.Cu
+Name=3v3
 Type=0
 Enabled=1
 [pcbnew/Layer.B.Adhes]

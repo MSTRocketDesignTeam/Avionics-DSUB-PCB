@@ -100,23 +100,6 @@ F10 "NRST" I R 6750 4550 50
 F11 "Fire" I R 6750 4700 50 
 F12 "Fire_redundant" I R 6750 5700 50 
 $EndSheet
-$Sheet
-S 7400 4450 800  1400
-U 61B49F64
-F0 "sheet61B49F57" 50
-F1 "DSUB-plug.sch" 50
-F2 "t_mosi" I L 7400 4600 50 
-F3 "t_miso" I L 7400 4750 50 
-F4 "t_clk" I L 7400 4900 50 
-F5 "Alert_scl" I L 7400 5050 50 
-F6 "Alert_sda" I L 7400 5200 50 
-F7 "Alert_Active" I L 7400 5350 50 
-F8 "SWDIO" I L 7400 5500 50 
-F9 "SWCLK" I L 7400 5650 50 
-F10 "NRST" I R 8200 4600 50 
-F11 "Fire" I R 8200 4750 50 
-F12 "Fire_redundant" I R 8200 5750 50 
-$EndSheet
 Text Label 5850 900  2    50   ~ 0
 tmosi
 Text Label 5850 1050 2    50   ~ 0
@@ -203,10 +186,6 @@ Text Label 5950 5450 2    50   ~ 0
 SWDIo
 Text Label 5950 5600 2    50   ~ 0
 SWCLK
-Text Label 7400 4600 2    50   ~ 0
-tmosi
-Text Label 7400 4750 2    50   ~ 0
-tmiso
 Text Label 7400 4900 2    50   ~ 0
 t_clk
 Text Label 7400 5200 2    50   ~ 0
@@ -243,10 +222,31 @@ Text Label 6750 4700 0    50   ~ 0
 Fire
 Text Label 6750 5700 0    50   ~ 0
 Fire_Redundant
-Text Label 8200 4600 0    50   ~ 0
-NRT
-Text Label 8200 4750 0    50   ~ 0
-Fire
 Text Label 8200 5750 0    50   ~ 0
 Fire_Redundant
+Text Label 8200 4750 0    50   ~ 0
+Fire
+Text Label 8200 4600 0    50   ~ 0
+NRT
+Text Label 7400 4750 2    50   ~ 0
+tmiso
+Text Label 7400 4600 2    50   ~ 0
+tmosi
+$Sheet
+S 7400 4400 800  1400
+U 61AA7F18
+F0 "Sheet61AA7F17" 50
+F1 "DSUB-plug-power.sch" 50
+F2 "t_mosi" I L 7400 4600 50 
+F3 "t_miso" I L 7400 4750 50 
+F4 "t_clk" I L 7400 4900 50 
+F5 "Alert_scl" I L 7400 5050 50 
+F6 "Alert_sda" I L 7400 5200 50 
+F7 "Alert_Active" I L 7400 5350 50 
+F8 "SWDIO" I L 7400 5500 50 
+F9 "SWCLK" I L 7400 5650 50 
+F10 "NRST" I R 8200 4600 50 
+F11 "Fire" I R 8200 4750 50 
+F12 "Fire_redundant" I R 8200 5750 50 
+$EndSheet
 $EndSCHEMATC
