@@ -16,27 +16,10 @@ $EndDescr
 Wire Notes Line
 	600  5050 600  6650
 $Sheet
-S 5950 2600 800  1400
-U 61B20CA3
-F0 "Sheet61B20CA2" 50
-F1 "DSUB-plug.sch" 50
-F2 "t_mosi" I L 5950 2750 50 
-F3 "t_miso" I L 5950 2900 50 
-F4 "t_clk" I L 5950 3050 50 
-F5 "Alert_scl" I L 5950 3200 50 
-F6 "Alert_sda" I L 5950 3350 50 
-F7 "Alert_Active" I L 5950 3500 50 
-F8 "SWDIO" I L 5950 3650 50 
-F9 "SWCLK" I L 5950 3800 50 
-F10 "NRST" I R 6750 2750 50 
-F11 "Fire" I R 6750 2900 50 
-F12 "Fire_redundant" I R 6750 3900 50 
-$EndSheet
-$Sheet
 S 7350 2550 800  1400
 U 61B49164
 F0 "sheet61B49157" 50
-F1 "DSUB-plug.sch" 50
+F1 "COMPONENT_SHEETS/DSUB-plug.sch" 50
 F2 "t_mosi" I L 7350 2700 50 
 F3 "t_miso" I L 7350 2850 50 
 F4 "t_clk" I L 7350 3000 50 
@@ -53,7 +36,7 @@ $Sheet
 S 5850 750  800  1400
 U 61B49AF6
 F0 "sheet61B49AE9" 50
-F1 "DSUB-plug.sch" 50
+F1 "COMPONENT_SHEETS/DSUB-plug.sch" 50
 F2 "t_mosi" I L 5850 900 50 
 F3 "t_miso" I L 5850 1050 50 
 F4 "t_clk" I L 5850 1200 50 
@@ -70,7 +53,7 @@ $Sheet
 S 7300 750  800  1400
 U 61B49BDC
 F0 "sheet61B49BCF" 50
-F1 "DSUB-plug.sch" 50
+F1 "COMPONENT_SHEETS/DSUB-plug.sch" 50
 F2 "t_mosi" I L 7300 900 50 
 F3 "t_miso" I L 7300 1050 50 
 F4 "t_clk" I L 7300 1200 50 
@@ -87,7 +70,7 @@ $Sheet
 S 5950 4400 800  1400
 U 61B49DBE
 F0 "sheet61B49DB1" 50
-F1 "DSUB-plug.sch" 50
+F1 "COMPONENT_SHEETS/DSUB-plug.sch" 50
 F2 "t_mosi" I L 5950 4550 50 
 F3 "t_miso" I L 5950 4700 50 
 F4 "t_clk" I L 5950 4850 50 
@@ -233,10 +216,27 @@ tmiso
 Text Label 7400 4600 2    50   ~ 0
 tmosi
 $Sheet
+S 5950 2600 800  1400
+U 61B20CA3
+F0 "Sheet61B20CA2" 50
+F1 "COMPONENT_SHEETS/DSUB-plug.sch" 50
+F2 "t_mosi" I L 5950 2750 50 
+F3 "t_miso" I L 5950 2900 50 
+F4 "t_clk" I L 5950 3050 50 
+F5 "Alert_scl" I L 5950 3200 50 
+F6 "Alert_sda" I L 5950 3350 50 
+F7 "Alert_Active" I L 5950 3500 50 
+F8 "SWDIO" I L 5950 3650 50 
+F9 "SWCLK" I L 5950 3800 50 
+F10 "NRST" I R 6750 2750 50 
+F11 "Fire" I R 6750 2900 50 
+F12 "Fire_redundant" I R 6750 3900 50 
+$EndSheet
+$Sheet
 S 7400 4400 800  1400
 U 61AA7F18
 F0 "Sheet61AA7F17" 50
-F1 "DSUB-plug-power.sch" 50
+F1 "COMPONENT_SHEETS/DSUB-plug-power.sch" 50
 F2 "t_mosi" I L 7400 4600 50 
 F3 "t_miso" I L 7400 4750 50 
 F4 "t_clk" I L 7400 4900 50 
